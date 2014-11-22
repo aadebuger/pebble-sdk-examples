@@ -18,7 +18,7 @@
       },
       {
         "type": "png",
-        "name": "IMAGE_qrcode",
+        "name": "IMAGE_QRCODE",
         "file": "images/qrcode.png"
       }
     ]
