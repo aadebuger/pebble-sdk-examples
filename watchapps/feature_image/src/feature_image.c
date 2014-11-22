@@ -29,7 +29,7 @@ int main(void) {
   GRect bounds = layer_get_frame(window_layer);
 
   // This needs to be deinited on app exit which is when the event loop ends
-  image = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_NO_LITTER);
+  image = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_QRCODE);
 
   // The bitmap layer holds the image for display
   image_layer = bitmap_layer_create(bounds);
